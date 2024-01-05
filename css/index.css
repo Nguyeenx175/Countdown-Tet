@@ -134,8 +134,8 @@ body {
     width: 25%;
     height: 25%;
     position: fixed;
-    top: -8%;
-    z-index: 6;
+    top: -15%;
+    z-index: 7;
     opacity: 0;
     align-content: center;
 }
