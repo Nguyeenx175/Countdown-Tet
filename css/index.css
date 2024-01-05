@@ -137,8 +137,6 @@ body {
     opacity: 0;
     text-align: center;
     margin-left: 20px;
-    width: 50%;
-    height: 50%;
 }
 .number:nth-child(7) {
     left: 35%;
