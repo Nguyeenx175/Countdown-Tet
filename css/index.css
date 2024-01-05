@@ -131,14 +131,13 @@ body {
     opacity: 0;
 }
 .number {
-    width: 5px;
-   height: 5px;
+    width: 10%;
+    height: 10%;
     position: fixed;
     top: -8%;
     z-index: 11;
     opacity: 0;
     align-content: center;
-    size-font: 2 px;
 }
 .number:nth-child(7) {
     left: 35%;
