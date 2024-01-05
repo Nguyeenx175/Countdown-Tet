@@ -4,37 +4,6 @@
 /**************************************************************************************************/
 var viewRemainTime = function(){
     this.objRemainTime = new remainTime(2024, 2, 10, 00, 00, 00, 000); // Lấy ra mảng chứa các thành phần time còn lại
-        var t = [{
-        name: "Mậu Tuất",
-        m1: Date.parse("Feb 16 2018 00:00:00")
-    }, {
-        name: "Kỷ Hợi",
-        m1: Date.parse("Feb 5 2019 00:00:00")
-    }, {
-        name: "Canh Tý",
-        m1: Date.parse("Jan 25 2020 00:00:00")
-    }, {
-        name: "Tân Sửu",
-        m1: Date.parse("Feb 12 2021 00:00:00")
-    }, {
-        name: "Nhâm Dần",
-        m1: Date.parse("Feb 1 2022 00:00:00")
-    }, {
-        name: "Quý Mão",
-        m1: Date.parse("Jan 22 2023 00:00:00")
-    }, {
-        name: "Giáp Thìn",
-        m1: Date.parse("Feb 10 2024 00:00:00")
-    }, {
-        name: "Ất Tỵ",
-        m1: Date.parse("Jan 29 2025 00:00:00")
-    }]
-      , e = t.length;
-    setInterval(function() {
-        for (var n = (new Date).getTime(), a = 0; a < e; a++) {
-            var o = t[a].m1 - 864e5
-              , r = t[a].m1 + 864e5
-              , m = t[a].m1 + 2592e5;
     this.remainTime = []; // Chứa mảng các thành phần thời gian trong thời gian còn lại
     this.listNumberOfViewElementTime = []; // Mảng các danh sách số từ 0-9 trong các view hiển thị phần tử thời gian
     this.viewElementTime = document.getElementsByClassName("element-time"); // Mảng chứa các view phần từ thời gian
