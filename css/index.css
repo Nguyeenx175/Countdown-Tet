@@ -247,7 +247,7 @@ body {
     }
     .number {
         position: fixed;
-        top: -8%;
+        top: -14%;
         z-index: 11;
         width: 15%;
         height: 23%;
