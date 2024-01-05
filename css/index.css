@@ -136,7 +136,7 @@ body {
     z-index: 11;
     opacity: 0;
     align-content: center;
-    size-font: 5 px;
+    size-font: 2 px;
 }
 .number:nth-child(7) {
     left: 35%;
