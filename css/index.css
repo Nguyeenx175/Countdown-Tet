@@ -131,8 +131,6 @@ body {
     opacity: 0;
 }
 .number {
-    width: 25%;
-    height: 25%;
     position: fixed;
     top: -8%;
     z-index: 4;
