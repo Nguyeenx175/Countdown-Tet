@@ -132,10 +132,11 @@ body {
 }
 .number {
     position: fixed;
-    top: -8%;
+    top: -15%;
     z-index: 4;
     opacity: 0;
-    align-content: center;
+    text-align: center;
+    margin-left: 20px;
 }
 .number:nth-child(7) {
     left: 35%;
