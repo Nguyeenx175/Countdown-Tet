@@ -7,6 +7,10 @@ img.thumbnail {
     height: 150px;
     object-fit: cover; /* Preserve aspect ratio */
 }
+img.thumbnail:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 .contain-tree-flower {
     opacity: 0;
