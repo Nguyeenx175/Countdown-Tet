@@ -2,6 +2,11 @@ body {
     background-image: url("../imgs/img-tet5.jpg");
     background-size: cover; 
 }
+img.thumbnail {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* Preserve aspect ratio */
+}
 
 .contain-tree-flower {
     opacity: 0;
